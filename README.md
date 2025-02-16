@@ -39,7 +39,7 @@ const pollSchema = new mongoose.Schema({
 
 
 🛠 Installation & Setup
-git clone https://github.com/your-username/poll-voting-frontend.git
+git clone https://github.com/your-username/pollVoting-frontend.git
 cd poll-voting-frontend
 npm install(this will install all the dependencies)
 npm run dev(this will start the development server on localhost:5173)
