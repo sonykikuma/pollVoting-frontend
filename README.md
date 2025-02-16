@@ -9,19 +9,19 @@ View poll results in real-time (auto-refresh every 5 seconds)
 📡 API Endpoints(backend baseurl:- https://poll-voting-backend.vercel.app)
 
 1️⃣ Get All Polls
-Endpoint: GET /polls
+Endpoint: GET /polls , 
 Description: Fetch all polls.
 
 2️⃣ Get a Single Poll
-Endpoint: GET /polls/:id
+Endpoint: GET /polls/:id , 
 Description: Fetch poll details by ID.
 
 3️⃣ Create a Poll
-Endpoint: POST /polls
+Endpoint: POST /polls , 
 Description: Create a new poll.
 
 4️⃣ Vote on a Poll
-Endpoint: POST /polls/:id/vote
+Endpoint: POST /polls/:id/vote , 
 Description: Vote for an option in a poll.
 
 
