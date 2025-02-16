@@ -1,8 +1,41 @@
-# React + Vite
+🗳️ Poll Voting System (Frontend)
+A React + Vite app with Bootstrap styling to create and vote on polls in real-time.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Create polls with multiple options
+Vote on polls
+View poll results in real-time (auto-refresh every 5 seconds)
 
-Currently, two official plugins are available:
+📡 API Endpoints
+1️⃣ Get All Polls
+Endpoint: GET /polls
+Description: Fetch all polls.
+2️⃣ Get a Single Poll
+Endpoint: GET /polls/:id
+Description: Fetch poll details by ID.
+3️⃣ Create a Poll
+Endpoint: POST /polls
+Description: Create a new poll.
+4️⃣ Vote on a Poll
+Endpoint: POST /polls/:id/vote
+Description: Vote for an option in a poll.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+🗄️ Database Schema (MongoDB)
+const pollSchema = new mongoose.Schema({
+  question: { type: String, required: true },
+  options:
+  [
+    {
+      text: { type: String, required: true },
+      votes: { type: Number, default: 0 }
+    }
+  ]
+});
+
+
+🛠 Installation & Setup
+git clone https://github.com/your-username/poll-voting-frontend.git
+cd poll-voting-frontend
+npm install(this will install all the dependencies)
+npm run dev(this will start the development server on localhost:5173)
