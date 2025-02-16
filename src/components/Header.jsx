@@ -31,12 +31,6 @@ const Header = () => {
                   Polls
                 </NavLink>
               </li>
-              <li className="nav-item">
-                {" "}
-                {/* <NavLink to="/addrecipe" className="nav-link text-primary">
-                  Add Recipe
-                </NavLink> */}
-              </li>
             </ul>
           </div>
         </div>

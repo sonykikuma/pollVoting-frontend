@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Header from "../components/Header";
 
 const PollDetail = () => {
@@ -69,6 +69,11 @@ const PollDetail = () => {
         >
           Vote
         </button>
+        <div className="my-3">
+          <Link to="/" className="" style={{ textDecoration: "none" }}>
+            🗳️ back to homepage
+          </Link>
+        </div>
       </div>
     </>
   );
