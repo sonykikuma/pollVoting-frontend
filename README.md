@@ -7,6 +7,7 @@ Vote on polls
 View poll results in real-time (auto-refresh every 5 seconds)
 
 📡 API Endpoints(backend baseurl:- https://poll-voting-backend.vercel.app)
+
 1️⃣ Get All Polls
 Endpoint: GET /polls
 Description: Fetch all polls.
