@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container">
           <NavLink to="/" className="navbar-brand ">
-            Poll Voting
+            Quick Polling App
           </NavLink>
           <button
             className="navbar-toggler btn btn-light"

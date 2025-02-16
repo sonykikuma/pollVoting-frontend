@@ -46,6 +46,7 @@ const PollDetail = () => {
   return (
     <>
       <Header />
+
       <div className="container mt-4">
         <h2>{poll.question}</h2>
         <ul className="list-group">
